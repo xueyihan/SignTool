@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+  <add-on id="spring.web"/>
+  <container path="com.genuitec.runtime.library/com.genuitec.struts_2.1">
+    <jar-attrs id="data/2.1/core/struts2-core-2.2.1.jar">
+      <attribute name="javadoc_location" value="http://struts.apache.org/release/2.2.x/struts2-core/apidocs/"/>
+      <attribute name="source-path-root"/>
+      <attribute name="source-path" value="C:\Users\xueyihan\Desktop\struts2-core-2.2.1-sources.jar"/>
+    </jar-attrs>
+    <jar-attrs id="data/2.1/core/xwork-core-2.2.1.jar">
+      <attribute name="javadoc_location" value="http://struts.apache.org/release/2.2.x/struts2-core/apidocs/"/>
+      <attribute name="source-path-root"/>
+      <attribute name="source-path" value="C:\Users\xueyihan\Desktop\xwork-core-2.2.1-sources.jar"/>
+    </jar-attrs>
+    <jar-attrs id="data/2.1/spring/struts2-spring-plugin-2.2.1.jar">
+      <attribute name="javadoc_location" value="http://struts.apache.org/release/2.2.x/struts2-core/apidocs/"/>
+      <attribute name="source-path-root"/>
+      <attribute name="source-path" value="C:\Users\xueyihan\Desktop\struts2-sources\struts2-spring-plugin-2.3.7-sources.jar"/>
+    </jar-attrs>
+  </container>
+  <container path="com.genuitec.runtime.library/com.genuitec.spring_3.1">
+    <jar-attrs id="data/3.1/dist/org.springframework.beans-3.1.1.RELEASE.jar">
+      <attribute name="javadoc_location" value="http://static.springsource.org/spring/docs/3.1.x/javadoc-api/"/>
+      <attribute name="source-path-root"/>
+      <attribute name="source-path" value="C:\Users\xueyihan\Desktop\spring3.1-src\org.springframework.beans"/>
+    </jar-attrs>
+    <jar-attrs id="data/3.1/dist/org.springframework.web-3.1.1.RELEASE.jar">
+      <attribute name="javadoc_location" value="http://static.springsource.org/spring/docs/3.1.x/javadoc-api/"/>
+      <attribute name="source-path-root"/>
+      <attribute name="source-path" value="C:\Users\xueyihan\Desktop\spring3.1-src\org.springframework.web"/>
+    </jar-attrs>
+    <jar-attrs id="data/3.1/dist/org.springframework.web.struts-3.1.1.RELEASE.jar">
+      <attribute name="javadoc_location" value="http://static.springsource.org/spring/docs/3.1.x/javadoc-api/"/>
+      <attribute name="source-path-root"/>
+      <attribute name="source-path" value="C:\Users\xueyihan\Desktop\spring3.1-src\org.springframework.web.struts"/>
+    </jar-attrs>
+  </container>
+  <container path="com.genuitec.runtime.library/com.genuitec.generic_6.0">
+    <jar-attrs id="data/libraryset/EE_6//javax.servlet.jar">
+      <attribute name="javadoc_location" value="http://java.sun.com/javaee/6/docs/api/"/>
+      <attribute name="source-path-root"/>
+      <attribute name="source-path" value="C:\Users\xueyihan\Desktop\servlet"/>
+    </jar-attrs>
+  </container>
+</project>

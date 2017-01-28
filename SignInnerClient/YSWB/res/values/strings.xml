@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SignInner</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">请稍候</string>
+    
+    <string name="connect_timeout">连接超时</string>
+    <string name="service_detail_submit">提交</string>
+    <string name="server_url">http://10.138.147.254:9080/SignInnerServer</string>
+
+</resources>

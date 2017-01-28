@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        
+        <TextView 
+            android:id="@+id/canyu_qiandao_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高等数学"
+            android:textSize="20sp"/>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        <TextView 
+	            android:id="@+id/canyu_qiandao_time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="星期三3、4节"
+	            android:textColor="#cdc9c9"/>
+	        <TextView 
+	            android:id="@+id/canyu_qiandao_position"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="   J0-102"
+	            android:textColor="#cdc9c9"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/canyu_qiandao_status"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <Button
+                android:id="@+id/canyu_qiandao_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:text="签"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/canyu_qiandao_button" />
+        <TextView
+            android:id="@+id/canyu_qiandao_resttime" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="剩余10分钟"
+            android:textColor="#cdc9c9"/>
+    </LinearLayout>
+    
+</LinearLayout>

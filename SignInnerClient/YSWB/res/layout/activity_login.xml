@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity" 
+    android:background="#00bfff">
+
+    <LinearLayout
+        android:id="@+id/loginPanel"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/background_login_div"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/login_picture"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Please login first" />
+
+        <EditText
+            android:id="@+id/login_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:singleLine="true"
+            android:background="@drawable/qq_edit_login"
+            android:hint="请输入您的用户名"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:singleLine="true"
+            android:password="true"
+            android:background="@drawable/qq_edit_login"
+            android:hint="请输入您的密码"
+            android:ems="10" />
+		
+        
+        <RadioGroup
+				    android:id="@+id/tab_menu"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal"
+				    android:layout_gravity="center_horizontal"
+				    android:layout_marginTop="15dp" >
+			    
+			   	  <RadioButton
+				      android:id="@+id/register_student"
+				      android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:layout_gravity="bottom"
+				      android:button="@null"
+				      android:drawableTop="@drawable/register_student_button"
+				      android:gravity="center_horizontal|bottom"
+				      android:paddingTop="2dp"
+				      android:text="学生"
+				      android:textColor="@color/tab_selector_tv_color" />
+			   	  
+			   	  <RadioButton 
+			   	      android:layout_height="0dp"
+			   	      android:layout_width="30dp"/>
+			      <RadioButton
+				      android:id="@+id/register_teacher"
+				      android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:layout_gravity="bottom"
+				      android:button="@null"
+				      android:drawableTop="@drawable/register_teacher_button"
+				      android:gravity="center_horizontal|bottom"
+				      android:paddingTop="2dp"
+				      android:text="教师"
+				      android:textColor="@color/tab_selector_tv_color" />
+			   </RadioGroup>
+        
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:text="登陆" 
+            android:textColor="#ffffff"
+            android:background="@drawable/background_button_div"/>
+        <TextView 
+            android:id="@+id/register_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#00bfff"
+            android:layout_marginBottom="15dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

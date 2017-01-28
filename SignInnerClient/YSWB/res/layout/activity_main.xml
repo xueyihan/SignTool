@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="fill_parent"
+  android:background="#cdc9c9"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  <FrameLayout
+    android:id="@+id/main_content"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="#ffffff" />
+  <RadioGroup
+    android:layout_marginTop="0.5dp"
+    android:id="@+id/tab_menu"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:orientation="horizontal"
+    android:background="#ffffff" >
+    
+   	  <RadioButton
+	      android:id="@+id/select1"
+	      android:layout_width="0dp"
+	      android:layout_height="wrap_content"
+	      android:layout_gravity="center_vertical"
+	      android:layout_weight="1"
+	      android:button="@null"
+	      android:drawableTop="@drawable/message_button"
+	      android:text="通知"
+	      android:textSize="12sp"
+	      android:gravity="center_horizontal"
+	      android:textColor="@color/tab_selector_tv_color"
+	      android:background="#ffffff"/>
+   	  
+      <RadioButton
+      android:id="@+id/select2"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:layout_weight="1"
+      android:button="@null"
+      android:drawableTop="@drawable/signin_button"
+      android:text="签到"
+      android:textSize="12sp"
+      android:gravity="center_horizontal"
+      android:textColor="@color/tab_selector_tv_color"
+      android:background="#ffffff"/>
+      
+      <RadioButton
+      android:id="@+id/select4"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:layout_weight="1"
+      android:button="@null"
+      android:drawableTop="@drawable/me_button"
+      android:text="我的"
+      android:textSize="12sp"
+      android:gravity="center_horizontal"
+      android:textColor="@color/tab_selector_tv_color"
+      android:background="#ffffff"/>
+      
+     
+   </RadioGroup>
+</LinearLayout>
